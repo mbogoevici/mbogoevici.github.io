@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Marius Bogoevici Software Blog
+title: Marius Bogoevici Blog
 email: mariusbogoevici@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 
@@ -28,6 +28,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-avatar
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
